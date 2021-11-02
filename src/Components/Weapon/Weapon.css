@@ -1,0 +1,19 @@
+.Weapon {
+  width: 80%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: left;
+}
+
+.Equipped-weapon {
+  width: 80%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  border-left: 8px solid yellow;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: left;
+  background-image: linear-gradient(to bottom right, transparent 60%, yellow);
+}

@@ -1,0 +1,59 @@
+table {
+  text-align: center;
+  font-size: 12px;
+}
+
+.row-header {
+  border-top: 1px solid black;
+}
+
+.row-category {
+  color: black;
+  background-color: white;
+  font-weight: 900;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  border: none;
+}
+
+thead th {
+  background-color: #ffeeee;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #ffeeee;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #eedddd;
+}
+
+.highP {
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Utilities  */
+.bold-italics {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.grey-italics {
+  font-style: italic;
+  color: grey;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.overview {
+  background-color: mediumturquoise;
+  border: 1px black solid;
+}
