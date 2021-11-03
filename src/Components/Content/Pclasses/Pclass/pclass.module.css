@@ -1,0 +1,20 @@
+.Card {
+  width: 60%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  border-left: 8px solid blue;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: left;
+}
+
+.Card span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media (min-width: 500px) {
+  .Card {
+    width: 700px;
+  }
+}

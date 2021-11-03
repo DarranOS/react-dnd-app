@@ -27,6 +27,7 @@ const Search = () => {
           }}
           value={searchParams}
         />
+        <p>Searching for {searchParams}</p>
         <button type="submit">Search</button>
       </form>
     </div>

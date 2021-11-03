@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.Red {
+  color: red;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.App button {
+  border: 3px solid hotpink;
+}
+
+.App button:hover {
+  border: 3px solid limegreen;
+}
