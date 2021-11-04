@@ -55,6 +55,9 @@ const Pclass = (props) => {
       <p>
         (a) {props.equipment[3][0]} or (b) {props.equipment[3][1]}
       </p>
+      <h2>Class Features</h2>
+      As a {props.name}, you gain the following class features, which are summarised in
+      the {props.name} table.
     </div>
   );
 };
