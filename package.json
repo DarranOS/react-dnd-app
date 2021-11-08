@@ -92,6 +92,7 @@
     ]
   },
   "devDependencies": {
+    "prop-types": "^15.7.2",
     "radium": "^0.26.1",
     "uniqid": "^5.4.0"
   },

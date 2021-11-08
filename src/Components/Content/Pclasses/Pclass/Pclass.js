@@ -1,5 +1,7 @@
 import React from "react";
 import pclass from "./pclass.module.css";
+import PclassFeature from "./PclassFeature/PclassFeature";
+import PclassEquipment from "./PclassEquipment/PclassEquipment";
 
 const Pclass = (props) => {
   return (
@@ -43,21 +45,14 @@ const Pclass = (props) => {
         You start with the following equipment, in addition to the equipment granted by
         your background:
       </p>
-      <p>
-        (a) {props.equipment[0][0]} or (b) {props.equipment[0][1]}
-      </p>
-      <p>
-        (a) {props.equipment[1][0]} or (b) {props.equipment[1][1]}
-      </p>
-      <p>
-        (a) {props.equipment[2][0]} or (b) {props.equipment[2][1]}
-      </p>
-      <p>
-        (a) {props.equipment[3][0]} or (b) {props.equipment[3][1]}
-      </p>
+      {<PclassEquipment equipment={props.equipment} />}
       <h2>Class Features</h2>
-      As a {props.name}, you gain the following class features, which are summarised in
-      the {props.name} table.
+      <p>
+        As a {props.name}, you gain the following class features, which are summarised in
+        the {props.name} table.
+      </p>
+      <h3>{props.features[0][0]}</h3>
+      <PclassFeature {...props.features[0]} />
     </div>
   );
 };
